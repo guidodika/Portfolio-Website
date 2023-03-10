@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio Website</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand fs-4 fw-bold" href="#">Guido Dika</a>
         <button
@@ -31,16 +31,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#about">Tentang</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#work">Work</a>
+              <a class="nav-link" href="#work">Pekerjaan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact">Kontak</a>
             </li>
           </ul>
         </div>
@@ -51,10 +51,10 @@
         class="row d-flex align-items-center flex-md-row flex-column-reverse"
       >
         <div class="col-12 col-md-8">
-          <h3 class="fw-semibold">Hi! I am</h3>
+          <h3 class="fw-semibold">Hi guys! Kenalin saya</h3>
           <h1 class="fw-bold">Guido Dika Firguston</h1>
           <p>Saya adalah seorang Front-end Web Developer di Indonesia</p>
-          <a class="btn" href="images/potrait.jpg" download>Resume</a>
+          <a class="btn" href="./assets/cv-guido.pdf" download>Resume</a>
         </div>
         <div
           class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center"
@@ -76,65 +76,81 @@
       </a>
     </section>
     <section id="about" class="about container">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at,
-        consectetur tempora consequuntur sint quasi asperiores labore, est quam
-        necessitatibus rerum. Earum maxime vero in veniam similique dignissimos
-        possimus dicta dolores officiis aut nostrum deserunt vel, dolorum harum
-        distinctio exercitationem rerum, necessitatibus numquam voluptate
-        inventore repellat quibusdam ipsum nam ea?
+      <p style="text-align: justify">
+        Perkenalkan nama saya Guido Dika Firguston, biasa dipanggil Guido. Saya
+        merupakan lulusan S1 Informatika dari Universitas Sanata Dharma
+        Yogyakarta. Pengalaman kerja saya adalah kurang lebih 1 tahun menjadi
+        Frontend Android Developer. Dari pengalaman selama saya bekerja
+        sebelumnya, saya memiliki pemahaman tentang pengembangan aplikasi mobile
+        dengan bahasa pemograman Kotlin. Saat ini, saya sedang mempelajari
+        pengembangan website. Saya mempelajari tentang dasar-dasar HTML, CSS,
+        Javascript, beberapa library dan framework yang saat ini sedang
+        dibutuhkan di dunia kerja. Saya merupakan pribadi yang disiplin, mau
+        belajar tentang hal baru dan tidak pantang menyerah.
       </p>
       <div class="class-exp">
+        <h1>Pengalaman Kerja</h1>
         <div class="about-exp-item">
           <div class="about-exp-item-header">
             <div>
-              <h5>Software Engineer</h5>
-              <p>Infosys Solusi Terpadu (2022-2023)</p>
+              <h5>Front-end Android Developer</h5>
+              <p>PT. Infosys Solusi Terpadu (2022-2023)</p>
             </div>
             <button class="btn button" onclick="toggleDetail(event)">
               More Info
             </button>
           </div>
           <p class="about-exp-item-detail">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In tempora
-            odio repellat ut recusandae nihil! Praesentium dignissimos earum
-            tenetur illo, corrupti vitae, ea unde nesciunt dolor nisi quod ab
-            perferendis.
+            Saya terlibat bersama dengan tim di perusahaan mengembangkan sebuah
+            aplikasi m-banking yaitu BTN Mobile Banking ini. Saya disitu
+            berperan sebagai Frontend Developer yang menggunakan bahasa
+            pemograman Kotlin dalam proses developing aplikasi. Saya mendapatkan
+            banyak pembelajaran berharga, terutama dalam pengembangan aplikasi
+            android.
           </p>
+        </div>
+        <h1>Sertifikasi Kursus</h1>
+        <div class="about-exp-item">
+          <div class="about-exp-item-header">
+            <div>
+              <h5>Responsive Web Design</h5>
+              <p>FreeCodeCamp (2021)</p>
+            </div>
+            <button
+              class="btn button"
+              onclick="window.open('https://www.freecodecamp.org/certification/guidodika14/responsive-web-design','_blank');"
+            >
+              More Info
+            </button>
+          </div>
         </div>
         <div class="about-exp-item">
           <div class="about-exp-item-header">
             <div>
-              <h5>Software Engineer</h5>
-              <p>Infosys Solusi Terpadu (2022-2023)</p>
+              <h5>Fundamental Algoritma</h5>
+              <p>Coding Studio (2023)</p>
             </div>
-            <button class="btn button" onclick="toggleDetail(event)">
+            <button
+              class="btn button"
+              onclick="window.open('https://codingstudio.id/certificate/75BB6B4DA0-75BB3DD3D9-75AF7FFF49/','_blank');"
+            >
               More Info
             </button>
           </div>
-          <p class="about-exp-item-detail">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In tempora
-            odio repellat ut recusandae nihil! Praesentium dignissimos earum
-            tenetur illo, corrupti vitae, ea unde nesciunt dolor nisi quod ab
-            perferendis.
-          </p>
         </div>
         <div class="about-exp-item">
           <div class="about-exp-item-header">
             <div>
-              <h5>Software Engineer</h5>
-              <p>Infosys Solusi Terpadu (2022-2023)</p>
+              <h5>Fundamental Front-End Web Development</h5>
+              <p>Coding Studio (2023)</p>
             </div>
-            <button class="btn button" onclick="toggleDetail(event)">
+            <button
+              class="btn button"
+              onclick="window.open('https://codingstudio.id/certificate/75BB6B4DA0-75AF8DE448-75AF7FFF49/','_blank');"
+            >
               More Info
             </button>
           </div>
-          <p class="about-exp-item-detail">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In tempora
-            odio repellat ut recusandae nihil! Praesentium dignissimos earum
-            tenetur illo, corrupti vitae, ea unde nesciunt dolor nisi quod ab
-            perferendis.
-          </p>
         </div>
       </div>
     </section>
@@ -142,23 +158,21 @@
       <div class="row d-flex align-items-center gap-5">
         <div class="col-12 col-md-5">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
-            adipisci aut corporis exercitationem. Quo aut voluptatem libero
-            delectus optio iste necessitatibus voluptas impedit tempore
-            distinctio quidem quibusdam et, veritatis sed amet dolor officiis,
-            exercitationem, atque odit modi. Quam rem error tenetur aliquid odit
-            voluptates ut necessitatibus, alias at harum magnam.
+            Berikut ini merupakan hasil latihan saya selama mempelajari
+            fundamental pembuatan Website. Dalam pembuatan website, saya
+            menggunakan HTML, CSS, Javascript dengan library jQuery dan juga
+            framework CSS yaitu Bootstrap
           </p>
         </div>
         <div class="col-12 col-md-6 work-img">
           <div id="work-1" class="work-img-item">
-            <img src="images/work-1.png" alt="work-1" />
+            <img src="images/web-1.png" alt="work-1" />
           </div>
           <div id="work-2" class="work-img-item">
-            <img src="images/work-2.png" alt="work-2" />
+            <img src="images/web-2.png" alt="work-2" />
           </div>
           <div id="work-3" class="work-img-item">
-            <img src="images/work-3.png" alt="work-3" />
+            <img src="images/web-3.png" alt="work-3" />
           </div>
         </div>
       </div>
@@ -167,36 +181,38 @@
       <div class="row d-flex align-items-center gap-5">
         <div class="col-12 col-lg-6">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            sit atque nemo sed corporis aliquid quos mollitia. Vero, quaerat
-            harum quibusdam repellendus velit, laboriosam exercitationem
-            consequuntur doloremque nulla aliquid, ex sapiente quae cupiditate
-            dolorem. Rem quod deserunt quaerat autem sint? Incidunt earum
-            accusamus possimus quos amet deleniti voluptas illo laudantium.
+            Jika ingin menghubungi saya, dapat menghubungi kontak saya dengan cara 
+            <b>klik icon sosial media saya dibawah ini</b>. Saya
+            dapat dihubungi via email, whatsapp atau dapat mengunjungi GitHub
+            saya untuk melihat hasil project saya yang lain.
           </p>
           <div class="row">
             <div class="col d-flex align-items-center">
-              <img class="w25" src="images/Facebook.svg" alt="facebook icon" />
-              <p class="mb-0 ms-2">Guido Dika Firguston</p>
+              <img class="w25" src="images/gmail.svg" alt="gmail icon" 
+              onclick="window.open('mailto:guidodikafirguston.mail@gmail.com','_blank');"/>
+              <p class="mb-0 ms-2">guidodikafirguston.mail@gmail.com</p>
             </div>
             <div class="col d-flex align-items-center">
-              <img
-                class="w25"
-                src="images/Instagram.svg"
-                alt="instagram icon"
-              />
-              <p class="mb-0 ms-2">@guidodika</p>
+              <img class="w25" src="images/Whatsapp.svg" alt="whatsapp icon"
+              onclick="window.open('https://api.whatsapp.com/send?phone=6289603915525','_blank');" />
+              <p class="mb-0 ms-2">089603915525</p>
             </div>
             <div class="col d-flex align-items-center">
-              <img class="w25" src="images/Twitter.svg" alt="twitter icon" />
-              <p class="mb-0 ms-2">@guidodika</p>
+              <img class="w25" src="images/linkedin.svg" alt="linkedin icon"
+              onclick="window.open('https://www.linkedin.com/in/guidodika/','_blank');" />
+              <p class="mb-0 ms-2">guidodika</p>
+            </div>
+            <div class="col d-flex align-items-center">
+              <img class="w25" src="images/github.svg" alt="linkedin icon"
+              onclick="window.open('https://github.com/guidodika?tab=repositories','_blank');" />
+              <p class="mb-0 ms-2">guidodika</p>
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-5">
           <form class="contact-form" onsubmit="onFormSubmit(event)">
             <div class="mb-3">
-              <label for="inp_email" class="form-label">Email address</label>
+              <label for="inp_email" class="form-label">Alamat Email</label>
               <input
                 type="email"
                 class="form-control"
@@ -210,20 +226,20 @@
                 type="text"
                 class="form-control"
                 id="inp_subject"
-                placeholder="Your Subject"
+                placeholder="Subject Anda"
               />
             </div>
             <div class="mb-3">
-              <label for="inp_message" class="form-label">Message</label>
+              <label for="inp_message" class="form-label">Pesan</label>
               <input
                 type="text"
                 class="form-control"
                 id="inp_message"
-                placeholder="Your Message"
+                placeholder="Pesan Anda"
               />
             </div>
             <div class="d-flex justify-content-center mt-5">
-              <button type="submit" class="btn button">Submit</button>
+              <button type="submit" class="btn button">Kirim</button>
             </div>
           </form>
         </div>

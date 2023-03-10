@@ -53,11 +53,11 @@ section::before {
 }
 
 .about::before {
-  content: "About";
+  content: "Tentang Saya";
 }
 
 .work::before {
-  content: "Work";
+  content: "Hasil Kerja";
 }
 
 .work-img {
@@ -65,6 +65,7 @@ section::before {
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "work-1 work-2" "work-3 work-3";
   gap: 16px;
+  cursor: pointer;
 }
 
 #work-1 {
@@ -132,12 +133,18 @@ section::before {
 }
 
 .contact::before {
-  content: "Contact";
+  content: "Kontak";
 }
 
 .contact-form {
   border: 1px solid black;
   padding: 64px 32px;
+}
+
+.contact img {
+  height: 61px;
+  width: 60px;
+  cursor: pointer;
 }
 
 .form-label {
